@@ -4197,7 +4197,6 @@ public class AndroidUtilities {
         }
         if (set) {
             try {
-                parentFragment.getParentActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
                 flagSecureFragment = new WeakReference<>(parentFragment);
             } catch (Exception ignore) {
 
